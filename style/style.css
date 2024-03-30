@@ -24,6 +24,7 @@ main h1 {
   font-style: normal;
   font-size:3rem;
   padding: 0 !important;
+  margin-top:1rem !important;
 
 
  
@@ -43,8 +44,10 @@ main p{
 
 main img {
   border-radius: 50%;
-  width: 10rem;
+  width: 15rem;
+  transition: .2s ease-in-out all;
 }
+
 main{
     height: 100vh;
     display: flex;
