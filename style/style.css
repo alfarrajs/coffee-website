@@ -1,15 +1,68 @@
-body{
-    background-color: black !important;
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    background-color: #f4f4f4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rakkas&display=swap');
+
+body {
+  background-color: black !important;
+  background-color: #f4f4f4;
+  font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: normal;
+    font-stretch: normal;
+ 
+
+}
+main{
+    text-align: center;
+}
+main h1 {
+  color: #fff;
+  margin: 0 !important;
+  font-family: "Rakkas", serif !important;
+  font-weight: 50;
+  font-style: normal;
+  font-size:3rem;
+  padding: 0 !important;
+
+
+ 
+}
+main p{
+    position: relative;
+    top:-1rem;
+    color: #fff;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: normal;
+    font-stretch: normal;
+    color: #fff;
 }
 
-img{
-    border-radius: 50%;
-    width: 50%;
+main img {
+  border-radius: 50%;
+  width: 10rem;
 }
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.who_are_we{
+    background-color: #ddd;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
