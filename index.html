@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap">
     <link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon">
-    <title>بُن الأرض المقدسة</title>
+    <title>HolyLand Coffee</title>
     <style>
         body {
             font-family: 'Cairo', sans-serif;
@@ -26,6 +26,19 @@
             padding: 100px 20px;
             width: 100%;
             box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 10000;
+        }
+
+        main::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
         }
         *{
           text-decoration : none;
@@ -61,13 +74,13 @@
         footer p {
             margin: 10px 0;
         }
-        footer div {
+         div {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 10px;
         }
-        footer div a {
+         div a {
             color: #fff;
             background-color: #555;
             border-radius: 50%;
@@ -80,19 +93,31 @@
             font-size: 1.5em;
             transition: background-color 0.3s ease;
         }
-        footer div a:hover {
+         div a:hover {
             background-color: #888;
         }
         footer{
             background :transparent !important;
         }
+
+        .logo{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin-top: -50px;
+        }
     </style>
 </head>
 <body>
     <main>
-        <img src="https://i.ibb.co/gPjNKp1/image-logo-logo.png" alt="coffee-iamges" border="0">
-        <h1>بُن الأرض المقدسة</h1>
-        <p style="margin-top:-1.5rem;">من جذور الأرض إلى أعماق القلب</p>
+        <img class = "logo"src="https://i.ibb.co/gPjNKp1/image-logo-logo.png" alt="coffee-iamges" border="0">
+        <h1>HolyLand Coffee</h1>
+        <p style="margin-top:-1.3rem;">From the roots of the earth to the depths of the heart</p>
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=61558488812692"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/holylandcoffee107/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/holyland107/?viewAsMember=true"><i class="fa fa-linkedin"></i></a>
+        </div>
     </main>
 
     <section class="who_are_we">
@@ -106,11 +131,6 @@
 
     <footer>
         <p style = "color:#333">جميع الحقوق محفوظة &copy; 2024</p>
-        <div>
-            <a href="https://www.facebook.com/profile.php?id=61558488812692"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/holylandcoffee107/"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/holyland107/?viewAsMember=true"><i class="fa fa-linkedin"></i></a>
-        </div>
     </footer>
 </body>
 </html>
